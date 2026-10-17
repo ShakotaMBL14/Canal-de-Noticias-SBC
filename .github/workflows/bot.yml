@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install feedparser requests
+      - run: pip install feedparser requests googlenewsdecoder "selectolax<1.0"
       - run: python bot.py
         env:
           WHAPI_TOKEN: ${{ secrets.WHAPI_TOKEN }}
