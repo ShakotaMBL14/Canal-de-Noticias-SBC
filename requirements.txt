@@ -1,0 +1,6 @@
+feedparser
+requests
+googlenewsdecoder
+selectolax<1.0
+python-dotenv
+supabase
